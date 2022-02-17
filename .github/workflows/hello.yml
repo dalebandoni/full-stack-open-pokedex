@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
-      - run: | 
-        echo "hello world!"
+      - run: |
+          echo "hello world!"
       - name: the date is
       - run: |
-        date
+          date
       - name: directory content
       - run: |
-        ls -l
+          ls -l
