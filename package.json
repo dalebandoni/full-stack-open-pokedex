@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/smartlyio/fullstackopen-cicd/issues"
   },
-  "prettier":{
+  "prettier": {
     "singleQuote": true,
     "semi": false
   },
