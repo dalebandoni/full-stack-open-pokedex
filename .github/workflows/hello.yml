@@ -1,18 +1,18 @@
-name: hello-world
-on:
-  push:
-    branches:
-      - master
-jobs:
-  run-hello-world:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Say hello
-        run: |
-          echo "hello world!"
-      - name: the date is
-        run: |
-          date
-      - name: directory content
-        run: |
-          ls -l
+# name: hello-world
+# on:
+#   push:
+#     branches:
+#       - master
+# jobs:
+#   run-hello-world:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Say hello
+#         run: |
+#           echo "hello world!"
+#       - name: the date is
+#         run: |
+#           date
+#       - name: directory content
+#         run: |
+#           ls -l
